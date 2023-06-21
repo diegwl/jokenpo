@@ -20,7 +20,7 @@ class Worker(QObject):
     jogar = pyqtSignal()
 
     def run(self):
-        for i in range(10, -1, -1):
+        for i in range(10, 0, -1):
             self.progress.emit(i)
             self.pc.emit()
             sleep(1.2)

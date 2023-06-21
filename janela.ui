@@ -556,7 +556,7 @@ border-bottom: 2px solid #000;</string>
     <property name="geometry">
      <rect>
       <x>520</x>
-      <y>340</y>
+      <y>400</y>
       <width>111</width>
       <height>101</height>
      </rect>
@@ -746,6 +746,28 @@ border-bottom: 2px solid #000;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_iniciar">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>302</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(8, 170, 13);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>JOGAR</string>
     </property>
    </widget>
   </widget>
